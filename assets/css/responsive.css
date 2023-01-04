@@ -1,0 +1,107 @@
+@media (min-width: 1024px) {
+	#header .mobile-menu-btn {
+		display: none;
+	}
+}
+
+@media (max-width: 1023px) and (min-width: 740px) {
+	#content .content-section {
+		max-width: 100%;
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	#header .mobile-menu-btn {
+		display: none;
+	}
+	#nav .subnav li a {
+		padding: 6px 10px;
+	}
+	.buy-btn {
+		padding: 16px 16px;
+	}
+	.contact input[class*="user"] {
+		padding: 14px 4px 14px;
+	}
+	.contact .information {
+		line-height: 2;
+	}
+	#footer .social-pages a {
+		margin: 0 8px;
+	}
+	.contact .information a {
+		color: #0000f1;
+		opacity: 0.8;
+	}
+	.contact .information a:hover {
+		color: #0000f1;
+		opacity: 1;
+	}
+}
+
+@media (max-width: 739px) {
+	.s-full-width,
+	.s-col-full {
+		width: 100% !important;
+	}
+	#html {
+		margin: 0px -8px 0px -8px;
+	}
+	#header {
+		overflow: hidden;
+	}
+	#header .search-btn {
+		display: none;
+	}
+	#nav {
+		display: block;
+	}
+	#nav > li {
+		display: block;
+	}
+	#nav > li:first-child {
+		display: inline-block;
+	}
+	#nav > li > a {
+		width: 100%;
+	}
+	#nav .subnav {
+		position: initial;
+	}
+	#nav .subnav li {
+		background-color: #bbb;
+		padding: 3px 42px;
+	}
+	#nav .subnav li a {
+		color: #fff;
+	}
+	#content .content-section {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	#content .member-item {
+		width: 100%;
+		margin-top: 30px;
+	}
+	#content .member-list {
+		padding-left: 16px !important;
+	}
+	#content .member-img {
+		width: 60%;
+	}
+	#content .place-item {
+		width: 100%;
+		margin-top: 16px;
+	}
+	#content .places-list {
+		margin: 0px;
+	}
+	.contact .information {
+		line-height: 1.8;
+	}
+	.form {
+		margin-top: 32px;
+	}
+	.user-email {
+		margin-top: 8px;
+	}
+}
